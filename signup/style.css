@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 300px;
+    height:550px;
+    margin:5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(59, 59, 59);
+    background-color: #fff;
+}
+h2{
+    text-align: center;
+}
+.name_div,.batch_div,.age_div,.email_div,.password_div{
+    display: flex;
+    flex-direction: column;
+    /* width: 90%;
+    margin: auto; */
+    padding: 10px;
+}
+button{
+    
+    width: 90%;
+    margin: auto;
+    /* display: flex; */
+    display: flex;
+   justify-content: center;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 0;
+    background-image:linear-gradient(to right bottom ,skyblue,blue);
+   
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+select{
+    padding: 5px;
+}
